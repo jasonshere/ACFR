@@ -1,0 +1,24 @@
+# Ignore CSV files under 'data' folder
+data/**/*.csv
+
+# Ignore Python cache directories
+__pycache__/
+**/__pycache__/
+
+# Ignore virtual environment
+.venv/
+
+*.h5
+
+# Ignore entire checkpoints folders
+checkpoints/
+**/checkpoints/
+
+# Ignore specific checkpoint file patterns
+*.ckpt
+*.ckpt.*
+checkpoint
+
+# Ignore all files/folders containing "checkpoint" in their name
+*checkpoint*
+**/*checkpoint*
